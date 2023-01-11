@@ -159,7 +159,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             tb_nobet.getColumnModel().getColumn(3).setResizable(false);
         }
 
-        jLabel2.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("sansserif", 1, 18)); 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Bugün Nöbetçi Personeller Ve Nöbet Saatleri");
 
@@ -184,7 +184,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
                 .addGap(29, 29, 29))
         );
 
-        jButton1.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("sansserif", 1, 14)); 
         jButton1.setText("Personel Eklemek İçin Tıklayınız");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,7 +192,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             }
         });
 
-        btn_vardiyaDuzenle.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        btn_vardiyaDuzenle.setFont(new java.awt.Font("sansserif", 1, 14)); 
         btn_vardiyaDuzenle.setText("Vardiya Ekle");
         btn_vardiyaDuzenle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -200,7 +200,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("sansserif", 1, 14)); 
         jButton3.setText("Giriş Sayfasına Gitmek İçin Tıklayınız");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -208,7 +208,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        jButton4.setFont(new java.awt.Font("sansserif", 1, 14));
         jButton4.setText("Personelleri Görüntüle");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +216,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             }
         });
 
-        btn_vardiyalarıGoruntule.setFont(new java.awt.Font("sansserif", 1, 14)); // NOI18N
+        btn_vardiyalarıGoruntule.setFont(new java.awt.Font("sansserif", 1, 14)); 
         btn_vardiyalarıGoruntule.setText("Vardiyaları Görüntüle");
         btn_vardiyalarıGoruntule.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -224,7 +224,7 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
             }
         });
 
-        lbl_tarih.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        lbl_tarih.setFont(new java.awt.Font("sansserif", 1, 12)); 
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -285,25 +285,25 @@ public class YoneticiAnaSayfa extends javax.swing.JFrame {
         pack();
     }
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         Login frame=new Login();
         frame.setVisible(true);
         this.setVisible(false);
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         PersonelEkleme frame=new PersonelEkleme();
         frame.setVisible(true);
         this.setVisible(false);
     }
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
         Personeller frame=new Personeller();
         frame.setVisible(true);
         this.setVisible(false);
     }
 
-    private void btn_vardiyalarıGoruntuleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_vardiyalarıGoruntuleActionPerformed
+    private void btn_vardiyalarıGoruntuleActionPerformed(java.awt.event.ActionEvent evt) {
         Vardiyalar frame=new Vardiyalar();
         frame.setVisible(true);
         this.setVisible(false);
